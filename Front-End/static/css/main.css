@@ -1,0 +1,86 @@
+
+@import url('http://fonts.cdnfonts.com/css/garden-party');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    
+}
+h1{
+    font-weight: 600 !important;
+}
+.font-g-party{
+    font-family: 'Garden Party', sans-serif;
+    
+}
+section{
+    margin-top: 40px;
+    padding: 20px;
+}
+.navbar{
+    margin-top: 0px !important;
+    background-color: rgb(28, 28, 28) !important;
+    color: white !important;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    margin-left: 10px;
+}
+.navbar .collapse .navbar-nav .nav-item .active{
+    color: yellow !important;
+}
+.img-preview {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

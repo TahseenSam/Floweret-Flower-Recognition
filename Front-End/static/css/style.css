@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/garden-party');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    
+}
+h1{
+    font-weight: 600 !important;
+}
+.font-g-party{
+    font-family: 'Garden Party', sans-serif;
+    
+}
+section{
+    margin-top: 40px;
+    padding: 20px;
+}
+.navbar{
+    margin-top: 0px !important;
+    background-color: rgb(28, 28, 28) !important;
+    color: white !important;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    margin-left: 10px;
+}
+.navbar .collapse .navbar-nav .nav-item .active{
+    color: yellow !important;
+}
+.btn-yellow{
+    padding: 10px 25px !important;
+    background-color: yellow !important;
+    border: 1px solid black !important;
+    font-weight: bolder !important;
+    font-size: 14px !important;
+}
+.btn-yellow:hover{
+    background-color: white !important;
+    border: 1px solid yellow !important;
+
+}
+
+.col-image img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    opacity: 0.9;
+}
+.col-image
+{
+    overflow: hidden;
+}
+.team-member-card{
+    box-shadow: 1px 1px rgba(0, 0, 0,0.4);
+}
+/* --------------Form Input Control------------ */
+.form-input-control{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    border: 0;
+    color: black;
+    padding: 25px 20px;
+    box-shadow: -1px 0 rgba(0, 0, 0,0.4),1px 0 rgba(0, 0, 0,0.4);
+}
+.contact-from-col{
+    padding:20px ;
+    /* box-shadow: -1px 0 black; */
+}
+.contact-form #msg-box {
+    min-height: 150px;
+}
+.contact-form .submit-btn{
+    margin-top: 30px;
+}
+/* ---------------Footer---------------- */
+.footer-section {
+    margin-top: 70px;
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    height: 150px;
+}
+.footer-section .container{
+    height: 100%;
+}
+.footer-container{
+    color: rgb(255, 248, 234);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.footer-logo-side{
+    display: flex;
+    align-items: center;
+}
+.footer-logo-side .footer-cc-msg{
+    margin-left: 20px;
+}
